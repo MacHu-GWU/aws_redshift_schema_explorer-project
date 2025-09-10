@@ -50,7 +50,9 @@ Welcome to ``aws_redshift_schema_explorer`` Documentation
 .. image:: https://aws-redshift-schema-explorer.readthedocs.io/en/latest/_static/aws_redshift_schema_explorer-logo.png
     :target: https://aws-redshift-schema-explorer.readthedocs.io/en/latest/
 
-Documentation for ``aws_redshift_schema_explorer``.
+A Python library that provides a simple, structured interface for extracting AWS Redshift schema metadata. This project focuses purely on the extraction layer, offering clean command-pattern APIs to retrieve database, schema, table, view, and column information from Redshift clusters. The extracted metadata is returned as structured dataclasses, making it ideal for downstream applications like AI-powered text-to-SQL systems. The library handles the complexity of querying Redshift system tables and views, providing a clean abstraction for schema exploration without dictating how the metadata should be encoded or consumed.
+
+Note: the sql command used in this project is based on `my own research <https://github.com/MacHu-GWU/tech_garden-project/blob/main/docs/source/486768641-Extract-Redshift-Schema-Details-For-AI/index.ipynb>`_.
 
 
 .. _install:
